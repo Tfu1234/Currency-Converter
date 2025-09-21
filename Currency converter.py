@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv(r"C:\Users\tyfu\Downloads\currency-rates.csv")
+df = pd.read_csv(r"C:\Users\input\input\currency-rates.csv")
 
 while True:
     
@@ -34,3 +34,4 @@ while True:
 
     product = section_result_for_start * section_result_for_end
     print("The value is $", product)
+
